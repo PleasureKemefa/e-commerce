@@ -1,11 +1,11 @@
 import Catalog from "./pages/Catalog"
+import Header from "./components/layout/Header"
+import { store } from "./app/store"
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-2xl font-bold mb-6">
-        E-Commerce Catalog
-      </h1>
+    <div className="space-y-8">
+      <Header />
       <Catalog />
     </div>
   )
