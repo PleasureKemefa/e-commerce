@@ -1,4 +1,4 @@
-Project Title
+#Project Title
 
 Dynamic E-Commerce Product Catalog
 
