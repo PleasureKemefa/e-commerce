@@ -1,61 +1,45 @@
-#Project Title
+# Dynamic E-Commerce Product Catalog
 
-Dynamic E-Commerce Product Catalog
-
-Description
+## Description
 
 A responsive e-commerce product catalog built with React, TypeScript, Redux Toolkit, and Tailwind CSS. Users can browse products, filter by category, sort by price, and load items dynamically using infinite scrolling.
 
-Features
+## Features
 
-Fetch products from a public API
+- Fetch products from a public API
+- Filter products by category
+- Sort products by price (ascending / descending)
+- Infinite scrolling
+- Responsive UI (desktop, tablet, mobile)
+- Global state management with Redux Toolkit
 
-Filter products by category
+## Technologies Used
 
-Sort products by price (ascending / descending)
+- React
+- TypeScript
+- Redux Toolkit
+- Tailwind CSS
+- Axios
 
-Infinite scrolling
+## Project Structure
 
-Responsive UI (desktop, tablet, mobile)
-
-Global state management with Redux Toolkit
-
-Technologies Used
-
-React
-
-TypeScript
-
-Redux Toolkit
-
-Tailwind CSS
-
-Axios
-
-Project Structure
 src/
- ├── app/
- │   ├── store.ts
- │   └── hooks.ts
- ├── features/
- │   └── products/
- │       ├── productsSlice.ts
- │       └── productsAPI.ts
- ├── components/
- │   └── ProductCard.tsx
- ├── pages/
- │   └── Catalog.tsx
+├── app/
+│ ├── store.ts
+│ └── hooks.ts
+├── features/
+│ └── products/
+│ ├── productsSlice.ts
+│ └── productsAPI.ts
+├── components/
+│ └── ProductCard.tsx
+├── pages/
+│ └── Catalog.tsx
 
-Setup Instructions
-git clone https://github.com/your-username/your-repo-name
-cd your-repo-name
-npm install
-npm run dev
-
-API Used
+## API Used
 
 https://fakestoreapi.com/products
 
-Status
+## Status
 
 🚧 In Progress — additional UI and performance improvements planned.
